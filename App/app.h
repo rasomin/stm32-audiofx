@@ -3,4 +3,6 @@
 
 #include "ap.h"
 
+int appMain(void);
+
 #endif
