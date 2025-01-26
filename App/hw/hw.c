@@ -6,4 +6,5 @@ void hwInit(void)
     bspInit();
 
     ledInit();
+    buttonInit();
 }
