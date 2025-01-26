@@ -3,7 +3,7 @@
 
 void bspInit(void)
 {
-
+    __HAL_RCC_GPIOC_CLK_ENABLE();
 }
 
 

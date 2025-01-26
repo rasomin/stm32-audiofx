@@ -6,4 +6,8 @@
 
 #define _DEF_LED1           0
 
+
+#define _DEF_BUTTON         0
+
+
 #endif
