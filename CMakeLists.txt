@@ -51,6 +51,7 @@ file(GLOB SRC_FILES CONFIGURE_DEPENDS
     App/bsp/*.c
     App/hw/*.c
     App/common/*.c
+    App/common/core/*.c
     App/hw/driver/*.c
 )
 
@@ -68,6 +69,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     App/bsp
     App/hw
     App/common
+    App/common/core
     App/common/hw/include
 )
 

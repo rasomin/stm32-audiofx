@@ -1,6 +1,7 @@
 #ifndef APP_COMMON_DEF_H_
 #define APP_COMMON_DEF_H_
 
+#include <stdio.h>
 #include <stdbool.h>
 #include <stdint.h>
 
