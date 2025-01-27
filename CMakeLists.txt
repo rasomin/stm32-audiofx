@@ -19,7 +19,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # Set the project name
-set(CMAKE_PROJECT_NAME stm32-mp3-effects)
+set(CMAKE_PROJECT_NAME stm32-audiofx)
 
 # Include toolchain file
 include("cmake/gcc-arm-none-eabi.cmake")
@@ -70,7 +70,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     App/hw
     App/common
     App/common/core
-    App/common/hw/include
+    App/common/hw/include 
 )
 
 # Add project symbols (macros)
