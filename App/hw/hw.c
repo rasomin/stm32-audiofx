@@ -7,4 +7,5 @@ void hwInit(void)
 
     ledInit();
     buttonInit();
+    uartInit();
 }

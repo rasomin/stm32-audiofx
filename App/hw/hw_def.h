@@ -10,5 +10,7 @@
 #define _USE_HW_BUTTON
 #define      HW_BUTTON_MAX_CH    1
 
+#define _USE_HW_UART
+#define      HW_UART_MAX_CH      2
 
 #endif
