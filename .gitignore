@@ -1,4 +1,6 @@
 /.vscode
 /build
 
+lib/audio-effects/target/
+
 .DS_Store
