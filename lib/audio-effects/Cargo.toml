@@ -1,0 +1,12 @@
+[package]
+name = "audio-effects"
+version = "0.1.0"
+edition = "2021"
+
+#[lib]
+#name = "audio_effects"
+#crate-type = ["cdylib"]
+
+[dependencies]
+rmp3 = "0.3"
+hound = "3.5.0"
